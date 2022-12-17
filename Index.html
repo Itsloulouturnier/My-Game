@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Let's Wordle! </h1>
+    <input type="text" id="textinput">
+    <div id="game-board">
+        <div class="row" id="row1">
+            <div class="box" id="row-one-box-one"></div>
+            <div class="box" id="row-one-box-two"></div>
+            <div class="box" id="row-one-box-three"></div>
+            <div class="box" id="row-one-box-four"></div>
+            <div class="box" id="row-one-box-five"></div>
+        </div>
+        <div class="row" id="row2">
+            <div class="box" id="row-two-box-one"></div>
+            <div class="box" id="row-two-box-two"></div>
+            <div class="box" id="row-two-box-three"></div>
+            <div class="box" id="row-two-box-four"></div>
+            <div class="box" id="row-two-box-five"></div>
+        </div>
+        <div class="row" id="row3">
+            <div class="box" id="row-three-box-one"></div>
+            <div class="box" id="row-three-box-two"></div>
+            <div class="box" id="row-three-box-three"></div>
+            <div class="box" id="row-three-box-four"></div>
+            <div class="box" id="row-three-box-five"></div>
+        </div>
+        <div class="row" id="row4">
+            <div class="box" id="row-four-box-one"></div>
+            <div class="box" id="row-four-box-two"></div>
+            <div class="box" id="row-four-box-three"></div>
+            <div class="box" id="row-four-box-four"></div>
+            <div class="box" id="row-four-box-five"></div>
+        </div>
+        <div class="row" id="row5">
+            <div class="box" id="row-five-box-two"></div>
+            <div class="box" id="row-five-box-three"></div>
+            <div class="box" id="row-five-box-four"></div>
+            <div class="box" id="row-five-box-five"></div>
+            <div class="box" id="row-five-box-one"></div>
+        </div>
+        <div class="row" id="row6">
+            <div class="box" id="row-six-box-one"></div>
+            <div class="box" id="row-six-box-two"></div>
+            <div class="box" id="row-six-box-three"></div>
+            <div class="box" id="row-six-box-four"></div>
+            <div class="box" id="row-six-box-five"></div>
+        </div>
+    </div>
+
+<section>
+    <div id="keyboard-cont">
+        <div class="first-row">
+            <button class="keyboard-button">q</button>
+            <button class="keyboard-button">w</button>
+            <button class="keyboard-button">e</button>
+            <button class="keyboard-button">r</button>
+            <button class="keyboard-button">t</button>
+            <button class="keyboard-button">y</button>
+            <button class="keyboard-button">u</button>
+            <button class="keyboard-button">i</button>
+            <button class="keyboard-button">o</button>
+            <button class="keyboard-button">p</button>
+        </div>
+        <div class="second-row">
+            <button class="keyboard-button">a</button>
+            <button class="keyboard-button">s</button>
+            <button class="keyboard-button">d</button>
+            <button class="keyboard-button">f</button>
+            <button class="keyboard-button">g</button>
+            <button class="keyboard-button">h</button>
+            <button class="keyboard-button">j</button>
+            <button class="keyboard-button">k</button>
+            <button class="keyboard-button">l</button>
+        </div>
+        <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">z</button>
+            <button class="keyboard-button">x</button>
+            <button class="keyboard-button">c</button>
+            <button class="keyboard-button">v</button>
+            <button class="keyboard-button">b</button>
+            <button class="keyboard-button">n</button>
+            <button class="keyboard-button">m</button>
+            <button class="keyboard-button">Enter</button>
+        </div>
+    </div>
+</section>
+
+    <script src="Words.js"></script>
+    <script src="Game.js"></script>
+</body>
+</html>
